@@ -43,6 +43,13 @@ h1 {
   font-size: 31px;
 }
 
+
+h3 {
+  font-size: 14px;
+  color: #5b6a86;
+  font-weight: bold;
+}
+
 nav {
   background-color: white!important;
 }
@@ -133,16 +140,19 @@ width: 100%;
 }
 
 .jumbotron {
-  margin-top: 51px;
+  padding-top: 51px;
+  padding-bottom: 180px;
   background-image: url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
   background-size: cover;
+  background-position: center;
   color: white;
 }
 
 #fast-sign-up {
   background-color: white;
   height: 469px;
-  width: 370px;
+  max-width: 370px;
+  min-width: 320px;
   border-radius: 8px;
   color: #031b4e;
   font-weight: bold;
@@ -190,25 +200,59 @@ width: 100%;
   margin-bottom: 30px;
 }
 
-.sign-up-google {
-  width: 100%;
+.sign-up-with-google {
+  width: 80%;
+  margin-left: 34px;
 }
 
-.sign-up-google button {
+.sign-up-with-google button {
   border: none;
   border: 1px  solid #1633ff;
 }
 
-.sign-up-google button:hover {
+#sign-up-hover:hover {
   color: #031b4e;
   border-color: black;
+  background-color: white;
+}
+
+#gmail:hover {
+  color: #1633ff;
+
 }
 
  #github  {
-   margin-left: 10px;
    border-color: #1633ff;
+   color: #1633ff;
+
  }
 
+ #github:hover {
+   border-color: black;
+   background-color: white;
+ }
+
+ #sign-up-hover {
+   width: calc(100% - 55px);
+   color: #1633ff;
+ }
+
+ .terms-of-service {
+   margin-left:34px;
+
+ }
+
+ small a {
+   color: white;
+ }
+
+ small a:hover {
+   color: white;
+ }
+
+#partners {
+  background-color: #f2f5f9;
+}
 
 /* per visualizzare l'hamburger menu fino ai 992px anziché 768px */
 @media (min-width: 768px) {
