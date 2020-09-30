@@ -1,5 +1,6 @@
 * {
   font-family: 'Raleway', sans-serif;
+  font-weight: lighter;
 
 }
 
@@ -13,6 +14,10 @@
 
 .margin-top-50 {
   margin-top: 50px;
+}
+
+.margin-top-60 {
+  margin-top: 60px;
 }
 
 .margin-top-75 {
@@ -37,6 +42,18 @@
 
 .margin-bottom-100 {
   margin-bottom: 100px;
+}
+
+.color-blue {
+  color: #031b4e;
+}
+
+.color-dark-blue {
+  color: #1634ff;
+}
+
+.font-20 {
+  font-size: 20px;
 }
 
 h1 {
@@ -67,6 +84,7 @@ nav {
   font-family: "Font Awesome 5 Free";
   font-weight: bold;
   vertical-align: middle;
+  margin-left: 10px;
 }
 
 
@@ -251,9 +269,90 @@ width: 100%;
    color: white;
  }
 
-#partners {
+#partners, #designed-for-developers {
+
   background-color: #f2f5f9;
+  padding-top: 50px;
   padding-bottom: 70px;
+}
+
+.deploy-text {
+  font-size: 20px;
+}
+
+.deploy-menu {
+  border-bottom: 3px solid #e5e8ec;
+
+}
+
+.deploy-menu ul li {
+  display: inline-block;
+  font-size: 16px;
+
+}
+
+.deploy-menu ul li a {
+  color: rgb(130, 130, 130);
+  padding: 0 10px;
+  text-decoration: none;
+
+}
+
+.features {
+  text-align: center;
+  font-size: 16px;
+}
+
+#deploy-and-scale {
+  padding-bottom: 100px;
+}
+
+#screenshot {
+  position: relative;
+}
+
+.screen {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.circle a {
+  padding: 5px;
+}
+
+.circle a i {
+  font-size: 10px;
+}
+
+#built-for-business {
+  padding-top: 50px;
+}
+
+.business-features {
+  text-align: center;
+}
+
+.name-business-features {
+  font-size: 18px;
+}
+
+.name-business-features + p{
+  font-size: 16px;
+}
+
+a.caret-right {
+  text-decoration: none;
+}
+
+#data-centers {
+  background: url("https://prismic-io.s3.amazonaws.com/www-static/bb563ec9-49ef-4ceb-8468-da84f1509fcc_bg-map-solid.svg") 50% 50% / cover no-repeat rgb(3, 27, 78);
+
+  color: white;
+}
+
+.text-data a {
+  text-decoration: none;
+  color: #0069ff;
 }
 
 /* per visualizzare l'hamburger menu fino ai 992px anziché 768px */
@@ -274,6 +373,32 @@ width: 100%;
     .navbar-collapse.collapse {
         display: none !important; /* per sovrascrivere l'important di bootstrap */
     }
+
+    .deploy-menu ul li {
+      display: block;
+
+    }
+
+    .deploy-menu {
+      border-bottom: 0;
+
+    }
+
+    .deploy-menu ul li a {
+      padding: 20px;
+      display: block;
+    border-left: 3px solid #e5e8ec;
+    }
+
+    .features {
+      text-align: left;
+    }
+
+    .screen {
+      width: 70%;
+    }
+
+
 }
 
 @media (min-width: 992px) {
@@ -281,6 +406,32 @@ width: 100%;
     .text-jumbotron {
       text-align: left;
     }
+
+    #screenshot::after {
+      content: '\f061';
+      font-family: "Font Awesome 5 Free";
+      font-weight: bold;
+      position: absolute;
+      top: 50%;
+      left: 90%;
+      font-size: 30px;
+      transform: translate(-50%, -50%);
+    }
+    #screenshot::before {
+      content: '\f060';
+      font-family: "Font Awesome 5 Free";
+      font-weight: bold;
+      position: absolute;
+      top: 50%;
+      right: 88%;
+      font-size: 30px;
+      transform: translate(-50%, -50%);
+    }
+
+    .business-features {
+      text-align: left;
+    }
+
 }
 
 /***** Media query fatta solo per l'hamburger menu  *****/
