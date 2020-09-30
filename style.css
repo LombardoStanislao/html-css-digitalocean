@@ -2,7 +2,316 @@
   font-family: 'Raleway', sans-serif;
 
 }
-
+* {
+    font-family: 'Raleway', sans-serif;
+  
+  }
+  
+  .margin-top-20 {
+    margin-top: 20px;
+  }
+  
+  .margin-top-35 {
+    margin-top: 35px;
+  }
+  
+  .margin-top-50 {
+    margin-top: 50px;
+  }
+  
+  .margin-top-75 {
+    margin-top: 75px;
+  }
+  
+  .margin-top-100 {
+    margin-top: 100px;
+  }
+  
+  .margin-bottom-20 {
+    margin-bottom: 20px;
+  }
+  
+  .margin-bottom-50 {
+    margin-bottom: 50px;
+  }
+  
+  .margin-bottom-75 {
+    margin-bottom: 75px;
+  }
+  
+  .margin-bottom-100 {
+    margin-bottom: 100px;
+  }
+  
+  h1 {
+    font-size: 31px;
+  }
+  
+  
+  h3 {
+    font-size: 14px;
+    color: #5b6a86;
+    font-weight: bold;
+  }
+  
+  nav {
+    background-color: white!important;
+  }
+  
+  .navbar-top {
+    font-size: 12px;
+    /* padding: 0px 0; */
+    color: #5b6987;
+    font-weight: 600;
+    line-height: 50px;
+  }
+  
+  .caret-right::after {
+    content: '\f105';
+    font-family: "Font Awesome 5 Free";
+    font-weight: bold;
+    vertical-align: middle;
+  }
+  
+  
+  #new {
+    background-color: rgb(0,215,210);
+    padding: 5px;
+  
+    border-radius: 5px;
+    font-size: 9px;
+    font-weight: bold;
+  }
+  
+  .navbar-top a {
+    color: #5b6987;
+  }
+  
+  .navbar-top-top {
+    display: none;
+  }
+  
+  .navbar-top a:hover {
+    color: #006aff;
+    text-decoration: none;
+  }
+  
+  .navbar-top ul li{
+    display: inline-block;
+    float: right;
+  }
+  #largebtnID{
+      border:1px solid white;
+  }
+  
+  .navbar-top ul li a {
+    padding: 0px 10px;
+  }
+  
+  hr {
+  margin: 0;
+  width: 100%;
+  }
+  
+  #logo {
+  
+    max-height: 30px;
+  
+  }
+  
+  .navbar-default .navbar-nav>li>a {
+    color: #031b4f;
+    line-height: 33px;
+  }
+  
+  .btn-primary {
+    font-weight: bold;
+    background-color: #006aff;
+    padding: 7px 15px;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #006aff;
+  }
+  
+  .btn-primary.sign-in {
+    background-color: white;
+    color: #006aff;
+    border: 1px solid #006aff;
+  }
+  
+  .btn-primary.sign-in:hover {
+    background-color: #006aff;
+    color: white;
+  }
+  
+  .jumbotron {
+    padding-top: 51px;
+    padding-bottom: 180px;
+    background-image: url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+  
+  #fast-sign-up {
+    background-color: white;
+    height: 469px;
+    max-width: 370px;
+    border-radius: 8px;
+    color: #031b4e;
+    font-weight: bold;
+    padding: 0;
+  }
+  
+  #fast-sign-up p {
+    font-weight: 500;
+    font-size: 18px;
+    padding: 20px;
+    background-color: #f3f5f9;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .form-sign-up {
+    width: 80%;
+    margin-left: 34px;
+  }
+  
+  .jumbotron .form-control {
+    margin-bottom: 10px;
+    padding: 25px;
+    border-color: rgba(194, 194, 194, 0.5);
+    box-shadow: none;
+    line-height: 0;
+  }
+  
+  .jumbotron .form-control::placeholder {
+    color: rgba(130, 130, 130, 1);
+    font-weight: lighter;
+  }
+  
+  .jumbotron .form-control:focus {
+    border-color: #0069ff;
+    outline: #0069ff;
+    box-shadow: none;
+  }
+  
+  .btn-primary.btn-lg.form-control:hover {
+    background-color: #1633ff;
+    transition: all .3s;
+  }
+  
+  .jumbotron .btn-primary.btn-lg.form-control {
+    margin-bottom: 30px;
+  }
+  
+  .sign-up-with-google {
+    width: 80%;
+    margin-left: 34px;
+  }
+  
+  .sign-up-with-google button {
+    border: none;
+    border: 1px  solid #1633ff;
+    font-size: 1em;
+  }
+  
+  #sign-up-hover:hover {
+    color: #031b4e;
+    border-color: black;
+    background-color: white;
+  }
+  
+  #gmail:hover {
+    color: #1633ff;
+  
+  }
+  
+   #github  {
+     border-color: #1633ff;
+     color: #1633ff;
+  
+   }
+  
+   #github:hover {
+     border-color: black;
+     background-color: white;
+   }
+  
+   #sign-up-hover {
+     width: calc(100% - 55px);
+     color: #1633ff;
+   }
+  
+   .terms-of-service {
+     margin-left:34px;
+  
+   }
+  
+   small a {
+     color: white;
+   }
+  
+   small a:hover {
+     color: white;
+   }
+  
+  #partners {
+    background-color: #f2f5f9;
+  }
+  
+  /* per visualizzare l'hamburger menu fino ai 992px anziché 768px */
+  @media (min-width: 768px) {
+  
+      .jumbotron h1 {
+        font-size: 58px;
+      }
+  
+      .navbar-header {
+          float: none;
+      }
+  
+      .navbar-toggle {
+          display: block;
+      }
+  
+      .navbar-collapse.collapse {
+          display: none !important; /* per sovrascrivere l'important di bootstrap */
+      }
+  }
+  
+  @media (min-width: 992px) {
+  
+      .text-jumbotron {
+        text-align: left;
+      }
+  }
+  
+  /***** Media query fatta solo per l'hamburger menu  *****/
+  @media (min-width: 1037px) {
+  
+      .navbar-top-top {
+        display: block;
+      }
+  
+      .navbar-header {
+          float: left;
+      }
+  
+      .navbar-toggle {
+          display: none;
+      }
+  
+      .navbar-collapse.collapse {
+          display: block !important; /* per sovrascrivere l'important di bootstrap */
+      }
+  
+      .jumbotron {
+        margin-top: 115px;
+      }
+  }
+  
 .margin-top-20 {
   margin-top: 20px;
 }
