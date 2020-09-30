@@ -152,7 +152,6 @@ width: 100%;
   background-color: white;
   height: 469px;
   max-width: 370px;
-  min-width: 320px;
   border-radius: 8px;
   color: #031b4e;
   font-weight: bold;
@@ -208,6 +207,7 @@ width: 100%;
 .sign-up-with-google button {
   border: none;
   border: 1px  solid #1633ff;
+  font-size: 1em;
 }
 
 #sign-up-hover:hover {
