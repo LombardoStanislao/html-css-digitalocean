@@ -146,6 +146,7 @@ width: 100%;
   background-size: cover;
   background-position: center;
   color: white;
+  margin-bottom: 0;
 }
 
 #fast-sign-up {
@@ -155,7 +156,7 @@ width: 100%;
   border-radius: 8px;
   color: #031b4e;
   font-weight: bold;
-  padding: 0;
+  margin: 50px auto;
 }
 
 #fast-sign-up p {
@@ -238,7 +239,7 @@ width: 100%;
  }
 
  .terms-of-service {
-   margin-left:34px;
+   margin: 20px auto;
 
  }
 
@@ -252,6 +253,7 @@ width: 100%;
 
 #partners {
   background-color: #f2f5f9;
+  padding-bottom: 70px;
 }
 
 /* per visualizzare l'hamburger menu fino ai 992px anziché 768px */
