@@ -355,6 +355,22 @@ a.caret-right {
   color: #0069ff;
 }
 
+.data-list {
+  list-style: none;
+  border-bottom: 1px solid #929cb2;
+}
+
+.data-list li {
+  display: inline-block;
+
+}
+
+.data-list li span {
+  color: #929cb2;
+  margin-left: 40px;
+}
+
+
 /* per visualizzare l'hamburger menu fino ai 992px anziché 768px */
 @media (min-width: 768px) {
 
@@ -431,6 +447,7 @@ a.caret-right {
     .business-features {
       text-align: left;
     }
+
 
 }
 
