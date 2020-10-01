@@ -358,6 +358,8 @@ a.caret-right {
 .data-list {
   list-style: none;
   border-bottom: 1px solid #929cb2;
+  padding: 0;
+  padding-bottom: 10px;
 }
 
 .data-list li {
@@ -367,7 +369,15 @@ a.caret-right {
 
 .data-list li span {
   color: #929cb2;
-  margin-left: 40px;
+}
+
+.data-list li a {
+  color: rgb(0, 215, 210);
+  text-decoration: none;
+}
+
+.data-list li a:hover {
+  color: #1633ff;
 }
 
 
@@ -403,7 +413,7 @@ a.caret-right {
     .deploy-menu ul li a {
       padding: 20px;
       display: block;
-    border-left: 3px solid #e5e8ec;
+      border-left: 3px solid #e5e8ec;
     }
 
     .features {
@@ -412,6 +422,11 @@ a.caret-right {
 
     .screen {
       width: 70%;
+    }
+
+    .data-list li span {
+      padding-left: 50px;
+      padding-right: 200px;
     }
 
 
