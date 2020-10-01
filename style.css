@@ -367,13 +367,30 @@ a.caret-right {
 
 }
 
+.city-code {
+  width: 20%;
+}
+
 .data-list li span {
   color: #929cb2;
+
+}
+
+.city-name {
+  width: 70%;
 }
 
 .data-list li a {
   color: rgb(0, 215, 210);
   text-decoration: none;
+
+}
+
+.test-speed {
+  width: 30%;
+  float: right;
+  line-height: 0px;
+
 }
 
 .data-list li a:hover {
@@ -424,10 +441,10 @@ a.caret-right {
       width: 70%;
     }
 
-    .data-list li span {
+    /* .data-list li span {
       padding-left: 50px;
       padding-right: 200px;
-    }
+    } */
 
 
 }
