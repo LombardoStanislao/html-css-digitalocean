@@ -268,8 +268,9 @@ width: 100%;
 
 #gmail::before {
   content: '\f1a0';
-  font-family: "Font Awesome 5 Free";
+  font-family: "Font Awesome 5 Brands";
   font-weight: bold;
+  color: #1633ff;
 }
 
  #github  {
