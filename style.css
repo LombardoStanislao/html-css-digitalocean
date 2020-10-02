@@ -48,8 +48,16 @@
   margin-bottom: 100px;
 }
 
+.padding-top-30 {
+  padding-top: 30px;
+}
+
 .padding-top-50 {
   padding-top: 50px;
+}
+
+.padding-bottom-30 {
+  padding-bottom: 30px;
 }
 
 .padding-bottom-50 {
@@ -253,14 +261,15 @@ width: 100%;
 }
 
 #sign-up-hover:hover {
-  color: #031b4e;
+  color: black;
   border-color: black;
   background-color: white;
 }
 
-#gmail:hover {
-  color: #1633ff;
-
+#gmail::before {
+  content: '\f1a0';
+  font-family: "Font Awesome 5 Free";
+  font-weight: bold;
 }
 
  #github  {
@@ -284,7 +293,7 @@ width: 100%;
 
  }
 
- small a {
+ small a, .footer-title-list {
    color: white;
  }
 
@@ -318,7 +327,6 @@ width: 100%;
   color: rgb(130, 130, 130);
   padding: 0 10px;
   text-decoration: none;
-
 }
 
 .features {
@@ -349,6 +357,7 @@ width: 100%;
 
 #built-for-business {
   padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 .business-features {
@@ -405,7 +414,6 @@ a.caret-right {
 }
 
 .test-speed, .city-code {
-  line-height: 3;
 }
 
 .city-code, .test-speed {
@@ -413,8 +421,13 @@ a.caret-right {
 }
 
 .last-data {
-  border-bottom: 1px solid transparent;
+  border-bottom: 1px solid #929cb2;
 }
+
+#toronto-data {
+  border-bottom: 0;
+}
+
 
 
 .development-link {
@@ -476,6 +489,62 @@ a.caret-right {
   padding: 20px 30px;
 }
 
+footer {
+  background-color: hsl(220,95%,8%);
+  padding-bottom: 50px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+.footer-element, #small-logo + span, .social-logo i {
+  color: hsla(0,0%,100%,0.5);
+}
+
+.footer-element:hover {
+  text-decoration: none;
+  color: white;
+}
+
+footer hr {
+  display: inline-block;
+  border: 1px solid grey;
+}
+
+#small-logo {
+  margin-right: 15px;
+}
+
+.social-logo {
+  line-height: 2.5;
+}
+
+.social-logo img:hover {
+  filter: invert(100%);
+}
+
+.social-logo img {
+  padding-right: 3px;
+  filter: contrast(0%);
+  width: 21px;
+  height: 21px;
+  margin-top: 10px;
+}
+
+#social-row {
+  text-align: center;
+}
+
+.footer-small-logo {
+  text-align: center;
+}
+
+/* .city-align {
+  vertical-align: super;
+} */
+
+
 /* per visualizzare l'hamburger menu fino ai 992px anziché 768px */
 @media (min-width: 768px) {
 
@@ -522,6 +591,15 @@ a.caret-right {
     .test-speed, .city-code {
       line-height: inherit;
     }
+
+    #social-row {
+      text-align: right;
+    }
+
+    .footer-small-logo {
+      text-align: left;
+    }
+
 
 
 }
@@ -587,6 +665,10 @@ a.caret-right {
     #get-started h2 {
 
       float: left;
+    }
+
+    .last-data {
+      border-bottom: 1px solid transparent;
     }
 
 
